@@ -1,0 +1,55 @@
+# ==========================
+# Python (Backend)
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables (IMPORTANT)
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# ==========================
+# Node / React (Frontend)
+# ==========================
+node_modules/
+build/
+dist/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Render / Deployment
+# ==========================
+.render/
