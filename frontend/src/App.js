@@ -4,7 +4,7 @@
  * Fixed: Modal positioning, Contact form integration, Theme toggle, Resume download
 */
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import axios from "axios";
 
