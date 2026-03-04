@@ -1591,9 +1591,6 @@ const AdminLogin = ({ onSuccess, T }) => {
         }} />
       {err && <span style={{ color: "#f472b6", fontSize: 12 }}>Incorrect password. Try again.</span>}
       <Btn onClick={attempt} style={{ width: "100%" }} data-testid="admin-login-btn">Unlock Admin Panel</Btn>
-      <p style={{ color: T.dim, fontSize: 11 }}>
-        Default password: <code style={{ color: T.acc }}>admin_2025</code>
-      </p>
     </div>
   );
 };
